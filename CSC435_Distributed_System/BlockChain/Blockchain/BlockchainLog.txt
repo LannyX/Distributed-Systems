@@ -1,0 +1,222 @@
+Lanny's Blockchain process 0
+Process# : 0 Ports: 4710 4820
+
+Lanny's Blockchain process 0
+now listening for blocks at port: 4710
+Port number: 4710
+Input file: BlockInput0.txt
+now listening for blocks at port: 4820
+Port number: 4820
+Process: 0 Chain Server
+Process: 0 Block Server
+4 records read.
+
+
+Completed Reading Input!
+Creating BlockchainLedger...
+Completed Writing Input!
+Casting Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00 to localhost at 4710.
+Process: 0 Block Server
+Casting Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00 to localhost at 4711.
+multicastB error
+Completed multicastBSmith cc5c05a2-58e3-4367-a675-3c46f0c65b00.
+Process 0 unverified block
+Casting Blow 8294fdf4-2bad-409d-8d21-8338b341a328 to localhost at 4710.
+Casting Blow 8294fdf4-2bad-409d-8d21-8338b341a328 to localhost at 4711.
+multicastB error
+Completed multicastBBlow 8294fdf4-2bad-409d-8d21-8338b341a328.
+Process: 0 Block Server
+Process 0 unverified block
+Casting Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26 to localhost at 4710.
+Casting Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26 to localhost at 4711.
+multicastB error
+Completed multicastBWilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26.
+Process: 0 Block Server
+Process 0 unverified block
+Casting Blaine d70b032e-ec2e-4037-8390-64048856fe53 to localhost at 4710.
+Casting Blaine d70b032e-ec2e-4037-8390-64048856fe53 to localhost at 4711.
+multicastB error
+Completed multicastBBlaine d70b032e-ec2e-4037-8390-64048856fe53.
+Process: 0 Block Server
+Process 0 unverified block
+Writing Blaine d70b032e-ec2e-4037-8390-64048856fe53 to disk.
+Writing Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26 to disk.
+Writing Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00 to disk.
+Writing Blow 8294fdf4-2bad-409d-8d21-8338b341a328 to disk.
+Started work() on: Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+Started work() on: Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Started work() on: Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Started work() on: Blow 8294fdf4-2bad-409d-8d21-8338b341a328
+Unique Block ID: 2710c127-8aaa-42a9-9142-80adf8237fd4
+
+Unique Block ID: 9dec3a7c-ba0c-4615-8037-45b912154330
+
+Unique Block ID: 01823a22-8586-4de9-8a29-7ba4dd648486
+
+Unique Block ID: e42607ed-fe53-4adc-9826-e581d168d5fb
+
+Timestamp:  2018-02-18.21:56:03.0
+How much work we did: 
+Timestamp:  2018-02-18.21:56:03.0
+How much work we did: 
+Timestamp:  2018-02-18.21:56:03.0
+How much work we did: 
+Timestamp:  2018-02-18.21:56:03.0
+How much work we did: 
+6 tenths of a second.
+
+localbc size: 0
+localBc: 
+7 tenths of a second.
+
+localbc size: 0
+localBc: 
+Is signature verified?  true
+
+Original SHA256 Hash: 679bde33d758006f0602d8ddfc65057aeec9f7af58a4446b6282c6f04c97b79a
+
+Is signature verified?  true
+
+Original SHA256 Hash: 6eabcf21f1da8e8d6d69bcd39676777b256eedd7d90e40321df29364e46ebc14
+
+The signed SHA-256 string: OkovrNNaDqEpX7xcUBK4S0XPlX81liXErEi0Vyo6GqTFSQqvS/9Fo6Iq8U7wfmhoz8+9Aus54RD+5xy94SXYPPQg1cfThIbsCj6wgm0QTepPFPs50bIKZCZwzeu0lg2N/JrDFe/A6QPjvT69tDNV6A1RTF94gnbyipSesHiQk3w=
+
+The signed SHA-256 string: OsnrQe9Nh0km8hQHINyElXwvVA46Zmp2bRt/9wpNzEK9D4sjSSrBwjmYjWh+4GAzzf4zM8u9c7HISua6ibedQkREvYWXVlSB6f8Xn4A5P4LopoVetynwg101ABYKoC3j7ls+4XQbKiy/MZb5PCzCqG0gw9qRzd3cZ9b3SMQpS9I=
+
+Testing restore of signature: true
+Testing restore of signature: false
+Has the restored signature been verified: false
+
+Has the restored signature been verified: true
+
+
+Extra functionality in case you want it:
+Encrypted Hash string: [B@38c60068
+Original (now decrypted) Hash string: 6eabcf21f1da8e8d6d69bcd39676777b256eedd7d90e40321df29364e46ebc14
+Adding block to local chain
+this local chain :
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Started multicastChain() [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00]...
+
+Extra functionality in case you want it:
+Encrypted Hash string: [B@7bec515f
+Original (now decrypted) Hash string: 679bde33d758006f0602d8ddfc65057aeec9f7af58a4446b6282c6f04c97b79a
+Adding block to local chain
+this local chain :
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00] to localhost at 4820.
+Started multicastChain() [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53]...
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53] to localhost at 4821.
+multicastC error
+Process: 0 Chain Server
+Complete multicastC [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53].
+Completed work() on: Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Process 0 recieving new chain.
+Global Blockchain size: 0
+
+Return size: 1
+
+Updated Blockchain object: 
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53] to localhost at 4820.
+Process: 0 Chain Server
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53] to localhost at 4821.
+Process 0 recieving new chain.
+multicastC error
+Complete multicastC [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53].
+Completed work() on: Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Global Blockchain size: 1
+
+Return size: 2
+
+Updated Blockchain object: 
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+14 tenths of a second.
+
+localbc size: 2
+localBc: 
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+last hash set
+Is signature verified?  true
+
+Original SHA256 Hash: f6ef188e09732a7ad2565a30a13e90f40127b42e551389f21dd5949a1e52638a
+
+The signed SHA-256 string: hgPOP5CahPE6Dsyk+XbG9ormCFIiczqb3ddcDn/WBURGHrlOlS16N1LF7m3Xzo9RXemp6DlTJ/pLLgvch+T7lKoPMa9g33/ijUH1NKLhDf5FmPS4J72iTWF+C/hds/HzFIZ/680llySWptR4IIE17mrmDpqpGja15IdoPJ9MK7E=
+
+Testing restore of signature: true
+Has the restored signature been verified: true
+
+
+Extra functionality in case you want it:
+Encrypted Hash string: [B@5045777a
+Original (now decrypted) Hash string: f6ef188e09732a7ad2565a30a13e90f40127b42e551389f21dd5949a1e52638a
+Adding block to local chain
+this local chain :
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+Started multicastChain() [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26]...
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26] to localhost at 4820.
+Process: 0 Chain Server
+Process 0 recieving new chain.
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26] to localhost at 4821.
+multicastC error
+Complete multicastC [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26].
+Completed work() on: Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+Global Blockchain size: 2
+
+Return size: 3
+
+Updated Blockchain object: 
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+18 tenths of a second.
+
+localbc size: 3
+localBc: 
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+last hash set
+Is signature verified?  true
+
+Original SHA256 Hash: f0e21ca4042a67085dfac8453b3971d667c3d6f053558775b266cef13ce42ea7
+
+The signed SHA-256 string: Gfw14mie/YYm2gd8bsZm59ezmVLW0a0xRu+lhk8TOngMnb9skTRcGtvtDMpP9YkKZJm7YLeLsMoQFTSW05knA3hewu5VPbem0AWh891yXSqJ3Z7uub4mWzVhLsGlLvrmHTFfvqlWdMRsF4wa2Ng+hHeb6S/3DWISCDTkMYgOtBY=
+
+Testing restore of signature: true
+Has the restored signature been verified: true
+
+
+Extra functionality in case you want it:
+Encrypted Hash string: [B@edb04b
+Original (now decrypted) Hash string: f0e21ca4042a67085dfac8453b3971d667c3d6f053558775b266cef13ce42ea7
+Adding block to local chain
+this local chain :
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+Blow 8294fdf4-2bad-409d-8d21-8338b341a328
+Started multicastChain() [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26, Blow 8294fdf4-2bad-409d-8d21-8338b341a328]...
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26, Blow 8294fdf4-2bad-409d-8d21-8338b341a328] to localhost at 4820.
+Process: 0 Chain Server
+Casting [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26, Blow 8294fdf4-2bad-409d-8d21-8338b341a328] to localhost at 4821.
+Process 0 recieving new chain.
+multicastC error
+Complete multicastC [Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00, Blaine d70b032e-ec2e-4037-8390-64048856fe53, Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26, Blow 8294fdf4-2bad-409d-8d21-8338b341a328].
+Completed work() on: Blow 8294fdf4-2bad-409d-8d21-8338b341a328
+Global Blockchain size: 3
+
+Return size: 4
+
+Updated Blockchain object: 
+Smith cc5c05a2-58e3-4367-a675-3c46f0c65b00
+Blaine d70b032e-ec2e-4037-8390-64048856fe53
+Wilson 4e5f92a5-36a7-4d2a-a634-a2abf2298b26
+Blow 8294fdf4-2bad-409d-8d21-8338b341a328
+^Z
+[1]+  Stopped                 java Blockchain

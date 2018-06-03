@@ -1,0 +1,105 @@
+>>java MyWebServer
+Lanny's Port Listener listening at port 2540.
+
+//local host:2540/dog.txt
+Handling HTTP Response: HTTP/1.1 200 OK
+Content-Type: text/plain
+Content-Length: 50
+
+
+
+Listen again...
+//local host:2540/cat.html
+Handling HTTP Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 338
+
+
+
+Listen again...
+// localhost:2540
+file: ./MyTelnetClient.class
+file: ./.DS_Store
+file: ./AddNum.html
+directory: ./subA
+file: ./dog.txt
+file: ./MyWebServer.class
+file: ./MyTelnetClient.java
+file: ./sWorker.class
+file: ./lWorker.class
+file: ./cat.html
+file: ./WebServerWorker.class
+file: ./MyWebServer.java
+file: ./MyListener.class
+file: ./MyListener.java
+file: ./http-streams.txt
+Handling Directory Response: <h1> Index of //</h1><pre><a href='/'>Parent Directory</a><br><br>File:     <a href=/MyTelnetClient.class>MyTelnetClient.class</a>
+File:     <a href=/.DS_Store>.DS_Store</a>
+File:     <a href=/AddNum.html>AddNum.html</a>
+Directory:     <a href=/subA>subA</a>
+File:     <a href=/dog.txt>dog.txt</a>
+File:     <a href=/MyWebServer.class>MyWebServer.class</a>
+File:     <a href=/MyTelnetClient.java>MyTelnetClient.java</a>
+File:     <a href=/sWorker.class>sWorker.class</a>
+File:     <a href=/lWorker.class>lWorker.class</a>
+File:     <a href=/cat.html>cat.html</a>
+File:     <a href=/WebServerWorker.class>WebServerWorker.class</a>
+File:     <a href=/MyWebServer.java>MyWebServer.java</a>
+File:     <a href=/MyListener.class>MyListener.class</a>
+File:     <a href=/MyListener.java>MyListener.java</a>
+File:     <a href=/http-streams.txt>http-streams.txt</a>
+</pre>
+Listen again...
+// select the directory of subA
+file: ./subA/cat.html
+Handling Directory Response: <h1> Index of //subA</h1><pre><a href='/'>Parent Directory</a><br><br>File:     <a href=/subA/cat.html>subA/cat.html</a>
+</pre>
+Listen again...
+//select and go back to the parent directory 
+file: ./MyTelnetClient.class
+file: ./.DS_Store
+file: ./AddNum.html
+directory: ./subA
+file: ./dog.txt
+file: ./MyWebServer.class
+file: ./MyTelnetClient.java
+file: ./sWorker.class
+file: ./lWorker.class
+file: ./cat.html
+file: ./WebServerWorker.class
+file: ./MyWebServer.java
+file: ./MyListener.class
+file: ./MyListener.java
+file: ./http-streams.txt
+Handling Directory Response: <h1> Index of //</h1><pre><a href='/'>Parent Directory</a><br><br>File:     <a href=/MyTelnetClient.class>MyTelnetClient.class</a>
+File:     <a href=/.DS_Store>.DS_Store</a>
+File:     <a href=/AddNum.html>AddNum.html</a>
+Directory:     <a href=/subA>subA</a>
+File:     <a href=/dog.txt>dog.txt</a>
+File:     <a href=/MyWebServer.class>MyWebServer.class</a>
+File:     <a href=/MyTelnetClient.java>MyTelnetClient.java</a>
+File:     <a href=/sWorker.class>sWorker.class</a>
+File:     <a href=/lWorker.class>lWorker.class</a>
+File:     <a href=/cat.html>cat.html</a>
+File:     <a href=/WebServerWorker.class>WebServerWorker.class</a>
+File:     <a href=/MyWebServer.java>MyWebServer.java</a>
+File:     <a href=/MyListener.class>MyListener.class</a>
+File:     <a href=/MyListener.java>MyListener.java</a>
+File:     <a href=/http-streams.txt>http-streams.txt</a>
+</pre>
+Listen again...
+//select the addnum.html
+Handling HTTP Response: HTTP/1.1 200 OK
+Content-Type: text/html
+Content-Length: 687
+
+
+//type in my name and 2 numbers, show the correct message
+Listen again...
+The CGI result is: Dear Lanny, the sum of 4 and 6 is 10. 
+
+
+
+Listen again...
+^Z
+[1]+  Stopped                 java MyWebServer

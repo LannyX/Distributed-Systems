@@ -1,0 +1,281 @@
+===========================
+=======   Server   ========
+===========================
+java JokeServer
+Lanny's Joke server 1.0 starting up, listening at port 2333.
+
+Right now runs under j Mode.
+JC: Why do soccer players do so well in school? They know how to use their heads.
+Right now runs under j Mode.
+JD: What runs around a soccer field but never moves? A fence!
+Right now runs under j Mode.
+JB: How do soccer players stay cool during games?  They stand near the fans.
+Right now runs under j Mode.
+JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Right now runs under j Mode.
+JB: How do soccer players stay cool during games?  They stand near the fans.
+Right now runs under j Mode.
+JD: What runs around a soccer field but never moves? A fence!
+Right now runs under j Mode.
+JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Right now runs under j Mode.
+JC: Why do soccer players do so well in school? They know how to use their heads.
+Proverb mode
+Right now runs under p Mode.
+PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Right now runs under p Mode.
+PD: No one can make you feel inferior without your consent.
+Right now runs under p Mode.
+PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Right now runs under p Mode.
+PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Right now runs under p Mode.
+PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Right now runs under p Mode.
+PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Right now runs under p Mode.
+PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Maintenance mode
+Right now runs under m Mode.
+Right now, under maintenance
+Right now runs under m Mode.
+Right now, under maintenance
+Right now runs under m Mode.
+Right now, under maintenance
+Right now runs under m Mode.
+Right now, under maintenance
+Joke mode
+Right now runs under j Mode.
+JC: Why do soccer players do so well in school? They know how to use their heads.
+Right now runs under j Mode.
+JB: How do soccer players stay cool during games?  They stand near the fans.
+Right now runs under j Mode.
+JD: What runs around a soccer field but never moves? A fence!
+Right now runs under j Mode.
+JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Right now runs under j Mode.
+JB: How do soccer players stay cool during games?  They stand near the fans.
+Right now runs under j Mode.
+JC: Why do soccer players do so well in school? They know how to use their heads.
+Right now runs under j Mode.
+JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Right now runs under j Mode.
+JD: What runs around a soccer field but never moves? A fence!
+Right now runs under j Mode.
+JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Right now runs under j Mode.
+JC: Why do soccer players do so well in school? They know how to use their heads.
+Right now runs under j Mode.
+JB: How do soccer players stay cool during games?  They stand near the fans.
+Right now runs under j Mode.
+JD: What runs around a soccer field but never moves? A fence!
+Right now runs under j Mode.
+JC: Why do soccer players do so well in school? They know how to use their heads.
+Right now runs under j Mode.
+JD: What runs around a soccer field but never moves? A fence!
+Right now runs under j Mode.
+JB: How do soccer players stay cool during games?  They stand near the fans.
+Right now runs under j Mode.
+JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Proverb mode
+Right now runs under p Mode.
+PD: No one can make you feel inferior without your consent.
+Right now runs under p Mode.
+PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Right now runs under p Mode.
+PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Right now runs under p Mode.
+PD: No one can make you feel inferior without your consent.
+Right now runs under p Mode.
+PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Right now runs under p Mode.
+PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Right now runs under p Mode.
+PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Right now runs under p Mode.
+PD: No one can make you feel inferior without your consent.
+Right now runs under p Mode.
+PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Right now runs under p Mode.
+PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+^Z  
+[1]+  Stopped                 java JokeServer
+
+===========================
+=======  Client 1  ========
+===========================
+
+java JokeClient
+Lanny's Joke Client, 1.0.
+
+The server name is  localhost, and at 2333 Port
+Here, you need to enter your name so I know who you are, or enter quit to you know, quit； 
+Lanny
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JC: Why do soccer players do so well in school? They know how to use their heads.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JD: What runs around a soccer field but never moves? A fence!
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JB: How do soccer players stay cool during games?  They stand near the fans.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JB: How do soccer players stay cool during games?  They stand near the fans.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JD: What runs around a soccer field but never moves? A fence!
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JC: Why do soccer players do so well in school? They know how to use their heads.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PD: No one can make you feel inferior without your consent.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+m
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: Right now, under maintenance
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: Right now, under maintenance
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JB: How do soccer players stay cool during games?  They stand near the fans.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JD: What runs around a soccer field but never moves? A fence!
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JB: How do soccer players stay cool during games?  They stand near the fans.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JC: Why do soccer players do so well in school? They know how to use their heads.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JC: Why do soccer players do so well in school? They know how to use their heads.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: JD: What runs around a soccer field but never moves? A fence!
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PD: No one can make you feel inferior without your consent.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Lanny! check this out: PD: No one can make you feel inferior without your consent.
+Hello! Lanny! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+quit
+User cancelled.
+
+===========================
+=======  Client 2  ========
+===========================
+
+java JokeClient
+Lanny's Joke Client, 1.0.
+
+The server name is  localhost, and at 2333 Port
+Here, you need to enter your name so I know who you are, or enter quit to you know, quit； 
+Curry
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: Right now, under maintenance
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: Right now, under maintenance
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JC: Why do soccer players do so well in school? They know how to use their heads.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JC: Why do soccer players do so well in school? They know how to use their heads.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JD: What runs around a soccer field but never moves? A fence!
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JB: How do soccer players stay cool during games?  They stand near the fans.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JD: What runs around a soccer field but never moves? A fence!
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JB: How do soccer players stay cool during games?  They stand near the fans.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: JA: Why can’t Cinderella play soccer?  Because she always runs away from the ball.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: PD: No one can make you feel inferior without your consent.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: PB: Great minds discuss ideas; average minds discuss events; small minds discuss people.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Curry! check this out: PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Hello! Curry! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+quit
+User cancelled.
+
+===========================
+=======  Client 3  ========
+===========================
+
+java JokeClient
+Lanny's Joke Client, 1.0.
+
+The server name is  localhost, and at 2333 Port
+Here, you need to enter your name so I know who you are, or enter quit to you know, quit； 
+Quntine
+Hello! Quntine! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Quntine! check this out: PA: If you don’t build your dream, someone else will hire you to help them build theirs.
+Hello! Quntine! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Quntine! check this out: PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Hello! Quntine! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+
+Quntine! check this out: PC: I have not failed. I’ve just found 10,000 ways that won’t work.
+Hello! Quntine! Let me tell you a joke or proverb, hit (Enter)! or (quit) to end: 
+quit
+User cancelled.

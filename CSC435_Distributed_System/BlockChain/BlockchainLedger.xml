@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>a5a64f94-14e6-4fd0-bf49-59593a6145da</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>Julie</FFname>
+    <FLname>Wilson</FLname>
+    <FSSNum>123-45-6999</FSSNum>
+    <GDiag>Insomnia</GDiag>
+    <GRx>HotPeppers</GRx>
+    <GTreat>Exercise</GTreat>
+    <lastHash></lastHash>
+    <SHA256String>b892844f7a946a58828cfe37d48e9e12e811e95ea4f68a069be5c9544708b4d6</SHA256String>
+    <signedSHA256>P+HF3vj9FivP16L9uH5PFERKErLTgsmMHehVDgIO8Rm1iaeN2EzeIAqFjvQvFu2uWpJ777s8VeEouBddFZU1Rex7tounAt+FFWpr6qBKVirR3h1MV7t2rhHI6EjbLpTsmoUakoNDgJggDQVqh1tcONwTib4o195qt+uh0zTMOUs=</signedSHA256>
+    <solveString>coming soon</solveString>
+    <timeStamp> 2018-02-18.23:12:36.0</timeStamp>
+    <verificationProcessID>0</verificationProcessID>
+</blockRecord>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>f4738f3a-79b0-4a92-8114-5040a18bc29e</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1942.07.07</FDOB>
+    <FFname>Wayne</FFname>
+    <FLname>Blaine</FLname>
+    <FSSNum>123-45-6777</FSSNum>
+    <GDiag>Measles</GDiag>
+    <GRx>CodLiverOil</GRx>
+    <GTreat>WaitToGetBetter</GTreat>
+    <lastHash>P+HF3vj9FivP16L9uH5PFERKErLTgsmMHehVDgIO8Rm1iaeN2EzeIAqFjvQvFu2uWpJ777s8VeEouBddFZU1Rex7tounAt+FFWpr6qBKVirR3h1MV7t2rhHI6EjbLpTsmoUakoNDgJggDQVqh1tcONwTib4o195qt+uh0zTMOUs=</lastHash>
+    <SHA256String>a9b1fe8aae9131d1ebc2a5170a1261b21da1462291c8ad9b173fa328b85fbad4</SHA256String>
+    <signedSHA256>QpST3MNma7B3/F2ND0t5Ac1ZdtrNEyGTR2XrdiSZOGbyt9aZx7tJIc5HuwFKoX8wP9yBxNfDGzMiFPZhbZJzEVvWWGmcf3yZPMnuSxmI/BXMtWk/Fuo5/3G6IQHzGEjuHjkVz5tjRXcjMQo6+g7OXaJcGJBwek/vihxMalWSc/U=</signedSHA256>
+    <solveString>coming soon</solveString>
+    <timeStamp> 2018-02-18.23:12:36.0</timeStamp>
+    <verificationProcessID>0</verificationProcessID>
+</blockRecord>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>72b1dccb-b12a-425f-a49e-ea3358f9f677</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>Joe</FFname>
+    <FLname>Blow</FLname>
+    <FSSNum>123-45-6888</FSSNum>
+    <GDiag>Smallpox</GDiag>
+    <GRx>Whiskey</GRx>
+    <GTreat>BedRest</GTreat>
+    <lastHash>QpST3MNma7B3/F2ND0t5Ac1ZdtrNEyGTR2XrdiSZOGbyt9aZx7tJIc5HuwFKoX8wP9yBxNfDGzMiFPZhbZJzEVvWWGmcf3yZPMnuSxmI/BXMtWk/Fuo5/3G6IQHzGEjuHjkVz5tjRXcjMQo6+g7OXaJcGJBwek/vihxMalWSc/U=</lastHash>
+    <SHA256String>8829fde22c525b8d73c0d1079ef797036cd3530c080d34ba69edfd1e3aa4d102</SHA256String>
+    <signedSHA256>f31Lzwapxydew2Bg6gUQmpV6rA1Oo5QQn/VOnnr2vEwGFbOK9nCS70C7jM9kFQzoOw6K4Ul5iPtd8KE1xZpev3mfMN7GnkfVN2eOFGx311J7PBpnlJODCZbczmy09oTkdW5QVo94tp/TGYyw/y2V50vXGiXMGTWls29TkqbXxGA=</signedSHA256>
+    <solveString>coming soon</solveString>
+    <timeStamp> 2018-02-18.23:12:36.0</timeStamp>
+    <verificationProcessID>0</verificationProcessID>
+</blockRecord>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>06d5be8a-8fed-4193-9d24-b83d1b78e28c</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>John</FFname>
+    <FLname>Smith</FLname>
+    <FSSNum>123-45-6789</FSSNum>
+    <GDiag>Chickenpox</GDiag>
+    <GRx>aspirin</GRx>
+    <GTreat>BedRest</GTreat>
+    <lastHash>f31Lzwapxydew2Bg6gUQmpV6rA1Oo5QQn/VOnnr2vEwGFbOK9nCS70C7jM9kFQzoOw6K4Ul5iPtd8KE1xZpev3mfMN7GnkfVN2eOFGx311J7PBpnlJODCZbczmy09oTkdW5QVo94tp/TGYyw/y2V50vXGiXMGTWls29TkqbXxGA=</lastHash>
+    <SHA256String>ce2df36b6a3f8c142b153968605d70694cb6b636ab8a442d9747d32d79ef5259</SHA256String>
+    <signedSHA256>pLJgB4p/19QQzYZIjRPWkO98cjjpKRAgKH7C4DUjVyX2VShljKEvDUwmdd1u3ZUmDntUTnKNiCAgsNS1Hk4D+tYIBJKEZMB/CotkXJmAILnwFXPtlU1zD4AEs73LCL5+Y1+0+dhVYN5iu+ml5RFo+fQS/DdvCmF51Sbf6Fd+N7g=</signedSHA256>
+    <solveString>coming soon</solveString>
+    <timeStamp> 2018-02-18.23:12:36.0</timeStamp>
+    <verificationProcessID>0</verificationProcessID>
+</blockRecord>
+

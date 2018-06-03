@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>d70b032e-ec2e-4037-8390-64048856fe53</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1942.07.07</FDOB>
+    <FFname>Wayne</FFname>
+    <FLname>Blaine</FLname>
+    <FSSNum>123-45-6777</FSSNum>
+    <GDiag>Measles</GDiag>
+    <GRx>CodLiverOil</GRx>
+    <GTreat>WaitToGetBetter</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>cc5c05a2-58e3-4367-a675-3c46f0c65b00</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>John</FFname>
+    <FLname>Smith</FLname>
+    <FSSNum>123-45-6789</FSSNum>
+    <GDiag>Chickenpox</GDiag>
+    <GRx>aspirin</GRx>
+    <GTreat>BedRest</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>4e5f92a5-36a7-4d2a-a634-a2abf2298b26</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>Julie</FFname>
+    <FLname>Wilson</FLname>
+    <FSSNum>123-45-6999</FSSNum>
+    <GDiag>Insomnia</GDiag>
+    <GRx>HotPeppers</GRx>
+    <GTreat>Exercise</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>8294fdf4-2bad-409d-8d21-8338b341a328</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>Joe</FFname>
+    <FLname>Blow</FLname>
+    <FSSNum>123-45-6888</FSSNum>
+    <GDiag>Smallpox</GDiag>
+    <GRx>Whiskey</GRx>
+    <GTreat>BedRest</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>72b1dccb-b12a-425f-a49e-ea3358f9f677</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>Joe</FFname>
+    <FLname>Blow</FLname>
+    <FSSNum>123-45-6888</FSSNum>
+    <GDiag>Smallpox</GDiag>
+    <GRx>Whiskey</GRx>
+    <GTreat>BedRest</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>a5a64f94-14e6-4fd0-bf49-59593a6145da</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>Julie</FFname>
+    <FLname>Wilson</FLname>
+    <FSSNum>123-45-6999</FSSNum>
+    <GDiag>Insomnia</GDiag>
+    <GRx>HotPeppers</GRx>
+    <GTreat>Exercise</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>06d5be8a-8fed-4193-9d24-b83d1b78e28c</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1996.03.07</FDOB>
+    <FFname>John</FFname>
+    <FLname>Smith</FLname>
+    <FSSNum>123-45-6789</FSSNum>
+    <GDiag>Chickenpox</GDiag>
+    <GRx>aspirin</GRx>
+    <GTreat>BedRest</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<blockRecord>
+    <blockID>f4738f3a-79b0-4a92-8114-5040a18bc29e</blockID>
+    <creatingProcess>Process0</creatingProcess>
+    <FDOB>1942.07.07</FDOB>
+    <FFname>Wayne</FFname>
+    <FLname>Blaine</FLname>
+    <FSSNum>123-45-6777</FSSNum>
+    <GDiag>Measles</GDiag>
+    <GRx>CodLiverOil</GRx>
+    <GTreat>WaitToGetBetter</GTreat>
+    <lastHash>coming soon</lastHash>
+    <SHA256String>SHA string goes here...</SHA256String>
+    <signedSHA256>Signed SHA string goes here...</signedSHA256>
+    <solveString>coming soon</solveString>
+    <verificationProcessID>coming soon</verificationProcessID>
+</blockRecord>
+

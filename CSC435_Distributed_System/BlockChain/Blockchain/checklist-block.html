@@ -1,0 +1,626 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>CSC435 Elliott</title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1561.2">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 9.0px 'Comic Sans MS'; color: #000000; -webkit-text-stroke: #000000}
+    p.p3 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px Cambria; color: #000000; -webkit-text-stroke: #000000}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p10 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 9.0px 'Comic Sans MS'; color: #000000; -webkit-text-stroke: #000000}
+    li.li5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    table.t1 {width: 690.1px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080}
+    td.td1 {width: 608.9px; margin: 0.5px 0.5px 0.5px 0.5px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 1.0px 1.0px 1.0px 1.0px}
+    td.td2 {width: 67.2px; margin: 0.5px 0.5px 0.5px 0.5px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #808080 #808080 #808080 #808080; padding: 1.0px 1.0px 1.0px 1.0px}
+    ol.ol1 {list-style-type: decimal}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">Version 3.1<span class="Apple-converted-space"> </span></span></p>
+<p class="p1"><span class="s1">Updates:</span></p>
+<ol class="ol1">
+  <li class="li1"><span class="s2"></span><span class="s1">2018-02-12: Process 0 writes the XML ledger to disk. Thanks Matt.<span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">2018-02-10: added verification of data hash<span class="Apple-converted-space"> </span></span></li>
+  <li class="li1"><span class="s2"></span><span class="s1">2018-02-06: Completed changes for version 3 making some features optional<span class="Apple-converted-space"> </span></span></li>
+</ol>
+<h1 style="margin: 0.0px 0.0px 16.1px 0.0px; text-align: center; line-height: 28.0px; font: 24.0px Cambria; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Program Three Checklist—Blockchain <br>
+There may be some further small changes. Check back. <br>
+</b></span></h1>
+<p class="p3"><span class="s1"><br>
+</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 21.0px; font: 18.0px Cambria; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>The required files, named <i>exactly </i>as follows:<span class="Apple-converted-space"> </span></b></span></h2>
+<ul class="ul1">
+  <li class="li5"><span class="s2"></span><span class="s1">checklist-block.html</span></li>
+  <li class="li5"><span class="s2"></span><span class="s1">Blockchain.java</span></li>
+  <li class="li5"><span class="s2"></span><span class="s1">BlockchainLog.txt</span></li>
+  <li class="li5"><span class="s2"></span><span class="s1">BlockchainLedgerSample.xml</span></li>
+  <li class="li5"><span class="s2"></span><span class="s1">[We will generate BlockchainLedger.xml from running your program]</span></li>
+  <li class="li5"><span class="s2"></span><span class="s1">BlockInput0.txt, BlockInput1.txt, BlockInput2.txt<span class="Apple-converted-space"> </span></span></li>
+</ul>
+<p class="p3"><span class="s1"><b>Change "No" to "Yes" as you complete the tasks:<span class="Apple-converted-space"> </span></b></span></p>
+<table width="690.1" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p6"><span class="s1"><b>Task<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p6"><span class="s1"><b>Complete?<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>[ENTER YOUR NAME HERE]<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Lanny Xu</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p7"><span class="s1"><b>--------------- ADMINISTRATION -----------------<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Created ZIP file, sent to D2L</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Downloaded your D2L submission to verify not corrupt</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Submitted all files except checklist, and input files concatenated together, to D2L TII link<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>All files correctly named, in single directory<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Did you consider simplifying the assignment<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Extensive comments in your code showing you know how the program works [<i>required</i> in your own words—no plagiarism!]<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>"javac *.java" (twice) in one directory compiles all code from console window.<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>System will run with supplied batch files<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Process 2 startup triggers the running of the whole system<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Provided clear console log file for your running processes<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Provided sample XML output of your blockchain in BlockchainLedgerSample.xml<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Three processes run from single program with arg 0,1,2<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Runs from the master grading script and sub-scripts?</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Writes final version of the ledger to BlockchainLedger.xml from process 0<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Correct headers for source files?<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>&lt;&gt;<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>I ran and understand the Blockchain utilities program<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>I ran and understand the Blockchain input utilities program with XML<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>I ran and understand the Blockchain Work program<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>I ran and understand the Blockchain Process Coordination program<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p7"><span class="s1"><b>--------------- THE PROGRAM -----------------<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Processes produce a basic blockchain ledger<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>All three processes contribute blocks to the ledger<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Blocks are verified by SHA256 hash of 3 items: previous hash, random seed, data<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Reads prescribed data files for initial data<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Three processes cooperate<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Processes each serve multiple ports<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>&lt;&gt;<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Updated blockchain ledger is distributed to three nodes<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Process 0 writes the ledger to disk after each update to it<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Ledger is sent to other nodes after update<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Ledger is marshaled to other nodes as XML<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Un-verified blocks are sent to all other processes<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Un-verified blocks are marshaled to other processes as XML<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>&lt;&gt;<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Digital Signatures used<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Digital Signatures are verified<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Public Keys are kept with process IDs for all nodes<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>A verifying block checks the signature on the data hash before verification<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b><i>Work </i>has been implemented.</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b><i>Work </i>method periodically checks to see if the block has already been verified<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>&lt;&gt;<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Nodes compete to verify blocks<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Blocks are fully listed after console command to do so<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Records are listed one to a line<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Blockchain is validated after console command<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Credit is given to nodes for validating blocks<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Blocks are fully verified with SHA256 and signatures<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes</b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p7"><span class="s1"><b>Hard! (Optional)</b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>&lt;&gt;<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Multiple blockchains are queued for processing<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Blockchain forks are all handled...<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Same length / same blockID / different timestamp handled<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Same length / different blockID handled<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>You have code to verify an entire blockchain<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Different length blockchain handled<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Did you use args 2-N for extra functionality?<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>TBD<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p8"><span class="s1"></span><br></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p7"><span class="s1"><b>------------------- BRAGGING RIGHTS BELOW THIS LINE--------------<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>&lt;&gt;<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b><i>Real work has been implemented based on hash value<span class="Apple-converted-space"> </span></i></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Use the dataHash field to verify local records against cache<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Extra command line functionality documented in three places? (Console prelude, in program, bottom checklist.)<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>For fun ran system on three different computers<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Clear written analysis of <i>this </i>program's security weaknesses<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>You've written up technological updates to the tools used<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Reconstruct entire blockchain when error detected in early block<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>Very hard! Any number of peers supported by DHT multicast group with persistent public/private keys<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>No<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p5"><span class="s1"><b>[Fill in custom extra feature] add multiple entries as needed<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+      <td valign="middle" class="td2">
+        <p class="p5"><span class="s1"><b>Yes<span class="Apple-converted-space"> </span></b></span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h3 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 14.0px; font: 12.0px Cambria; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Your special comments to me, only if needed:<span class="Apple-converted-space"> </span></b></span></h3>
+<p class="p10"><span class="s1"></span><br></p>
+</body>
+</html>
